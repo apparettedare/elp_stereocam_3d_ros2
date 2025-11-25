@@ -7,7 +7,7 @@ def generate_launch_description():
     return LaunchDescription([
 
         # Declare launch arguments
-        DeclareLaunchArgument('video_port', default_value='2', description='Video port of the camera'),
+        DeclareLaunchArgument('video_port', default_value='4', description='Video port of the camera'),
         DeclareLaunchArgument('fps', default_value='60', description='Frames per second'),
         DeclareLaunchArgument('image_width', default_value='1280', description='Image width'),
         DeclareLaunchArgument('image_height', default_value='480', description='Image height'),
